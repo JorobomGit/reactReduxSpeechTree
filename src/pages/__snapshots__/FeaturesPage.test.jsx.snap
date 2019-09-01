@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component behaviour addSentence calls redux action 1`] = `"<div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Feature 1</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Feature 2</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Feature 3</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Context 1.1</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Context 1.2</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Event 1.1.1</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-unselectable\\" role=\\"button\\" tabindex=\\"0\\">Sentence 1.1.1.1</div></div><div class=\\"element-list-buttons\\"><input type=\\"text\\" value=\\"\\" class=\\"form-control element-list-input\\"/><button disabled=\\"\\" type=\\"button\\" class=\\"btn btn-primary mt-3\\">Add child to this element</button></div></div></div>"`;
+
+exports[`component renders with features 1`] = `
+<div>
+  <div>
+    <div
+      className="element-list"
+    >
+      <div
+        className="element-list-card element-list-card-unselected"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        Feature 1
+      </div>
+      <div
+        className="element-list-card element-list-card-unselected"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        Feature 2
+      </div>
+      <div
+        className="element-list-card element-list-card-unselected"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        Feature 3
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+</div>
+`;
+
+exports[`component renders with features and children 1`] = `
+Array [
+  Object {
+    "events": Array [
+      Object {
+        "id": "7b889505-d3c5-4281-ad24-2126c1a7cfdc",
+        "sentences": Array [
+          Object {
+            "id": "122f7f78-14cd-4edf-a8da-6f00588f1a71",
+            "title": "Sentence 1.1.1.1",
+          },
+        ],
+        "title": "Event 1.1.1",
+      },
+    ],
+    "id": "1cc34c1f-d440-4a4f-b3e8-a7ec25e7655c",
+    "title": "Context 1.1",
+  },
+  Object {
+    "events": Array [],
+    "id": "cae5cbe3-75e7-48c5-9c3c-e5ab70cea982",
+    "title": "Context 1.2",
+  },
+]
+`;
+
+exports[`component renders with features and children 2`] = `
+Array [
+  Object {
+    "id": "7b889505-d3c5-4281-ad24-2126c1a7cfdc",
+    "sentences": Array [
+      Object {
+        "id": "122f7f78-14cd-4edf-a8da-6f00588f1a71",
+        "title": "Sentence 1.1.1.1",
+      },
+    ],
+    "title": "Event 1.1.1",
+  },
+]
+`;
+
+exports[`component renders with features and children 3`] = `
+Array [
+  Object {
+    "id": "122f7f78-14cd-4edf-a8da-6f00588f1a71",
+    "title": "Sentence 1.1.1.1",
+  },
+]
+`;
+
+exports[`component renders with features and children 4`] = `"<div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Feature 1</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Feature 2</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Feature 3</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Context 1.1</div><div class=\\"element-list-card element-list-card-unselected\\" role=\\"button\\" tabindex=\\"0\\">Context 1.2</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-selected\\" role=\\"button\\" tabindex=\\"0\\">Event 1.1.1</div></div></div><div><div class=\\"element-list\\"><div class=\\"element-list-card element-list-card-unselectable\\" role=\\"button\\" tabindex=\\"0\\">Sentence 1.1.1.1</div></div><div class=\\"element-list-buttons\\"><input type=\\"text\\" value=\\"\\" class=\\"form-control element-list-input\\"/><button disabled=\\"\\" type=\\"button\\" class=\\"btn btn-primary mt-3\\">Add child to this element</button></div></div></div>"`;
+
+exports[`component renders without features 1`] = `
+<div>
+  <div>
+    <div
+      className="element-list-empty"
+    >
+      <span>
+        This element doesn't have any child yet
+      </span>
+    </div>
+    
+  </div>
+  
+  
+  
+</div>
+`;

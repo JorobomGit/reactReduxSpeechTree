@@ -1,0 +1,51 @@
+[
+  {
+    "id": "875b1e20-ea80-46b4-abba-3021333d3ca4",
+    "title": "Feature 1",
+    "contexts": [
+      {
+        "id": "1cc34c1f-d440-4a4f-b3e8-a7ec25e7655c",
+        "title": "Context 1.1",
+        "events": [
+          {
+            "id": "7b889505-d3c5-4281-ad24-2126c1a7cfdc",
+            "title": "Event 1.1.1",
+            "sentences": [
+              {
+                "id": "122f7f78-14cd-4edf-a8da-6f00588f1a71",
+                "title": "Sentence 1.1.1.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cae5cbe3-75e7-48c5-9c3c-e5ab70cea982",
+        "title": "Context 1.2",
+        "events": []
+      }
+    ]
+  },
+  {
+    "id": "4849cd03-a0cb-41e2-a96d-ac0fbc4b1112",
+    "title": "Feature 2",
+    "contexts": [
+      {
+        "id": "865ade4b-49c7-44cc-8e19-61cb5c2436d4",
+        "title": "Context 2.1",
+        "events": [
+          {
+            "id": "7d6c4733-7851-43d3-b6b5-59c97d871901",
+            "title": "Event 2.1.1",
+            "sentences": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f551d0dd-e046-4f9c-b920-cb738512dd1e",
+    "title": "Feature 3",
+    "contexts": []
+  }
+]
